@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+#dictionary-intro {
+  text-align: center;
+}
+
 .topnav {
     background-color: lightgray;
     overflow: hidden;
