@@ -1,27 +1,41 @@
+
 body {
   background-color: white;
 }
 
 h1 {
+  margin:0;
   text-align: center;
+  position: relative;
+  top: 30px; 
+
 }
 
-#dictionary-intro {
+#dictionary-intro,
+p
+{
   text-align: center;
+  position:relative;
+  top: 250px;
+  font-size: larger;
 }
 
-.topnav {
-    background-color: lightgray;
+  .topnav {
+    background-color: /*lightgray*/ #FFE5FC;
     overflow: hidden;
+    position:absolute;
+    top: 200px;
+
   }
   
   .topnav a {
     float: left;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 68px;
     text-decoration: none;
     font-size: 17px;
+  
   }
   
   /* Change the color of links on hover */
@@ -35,3 +49,33 @@ h1 {
     background-color: gray;
     color: white;
   }
+
+
+/* Style the letter box - based on figma css*/
+.letter1 {
+  position: absolute;
+  width: 344px;
+  height: 551px;
+  left: 598px;
+  top: 350px;
+  background-color: #FFE5FC;
+
+  }
+
+.letter2{
+  position: absolute;
+  width: 344px;
+  height: 551px;
+  left: 174px;
+  top: 350px;
+  background-color:  #FFE5FC ;
+}
+
+.letter3{
+  position: absolute;
+  width: 344px;
+  height: 551px;
+  left: 1022px;
+  top: 350px;
+  background-color:  #FFE5FC ;
+}
